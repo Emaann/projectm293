@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo img {
+    width: 80px;
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f4f4f9;
+}
+
+/* Blog Section */
+section.blogs {
+    padding: 40px 20px;
+    background: #ffffff;
+}
+
+section.blogs .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section.blogs h2 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section.blogs .blog-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section.blogs .blog-list li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section.blogs .blog-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+section.blogs .blog-list li h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+section.blogs .blog-list li h3 a {
+    text-decoration: none;
+    color: #4ca1af;
+    transition: color 0.3s ease;
+}
+
+section.blogs .blog-list li h3 a:hover {
+    color: #2c3e50;
+}
+
+section.blogs .blog-list li p {
+    margin: 0;
+    color: #555;
+    font-size: 1em;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0.9em;
+}
